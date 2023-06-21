@@ -1,0 +1,235 @@
+.container_web_training{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+}
+.block_1_1{
+    max-width: 540pt; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.block_1_2{
+    width: 100%; 
+    float: left; 
+    max-width: 500pt;
+}
+.table_parametri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.form_anketa{
+    width: 530pt; /*Длина поля возраста */
+    margin-bottom: 5pt;
+}
+.ves_class{
+    width: 530pt; /*Длина поля вес */
+}
+.rost_class{
+    width: 530pt; /*Длина поля рост */
+}
+.stag_class{
+    width: 100%; /*Длина поля Стаж тренировок в тренажёрном зале */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.colvo_class{
+    width: 100%; /*Длина поля Желаемое количество тренировок */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.lvl_class{
+    width: 100%; /*Длина поля Уровень физической активности */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.obch_class{
+    width: 100%; /*Длина поля Общая физическая подготовка */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.slog_class{
+    width: 100%; /*Длина поля Желаемая сложность */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.cel_class{
+    width: 100%; /*Длина поля Цель тренировок */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.type_class{
+    width: 100%; /*Длина поля Тип тренировок */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.telo_class{
+    width: 100%; /*Длина поля Телосложение */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.davl_class{
+    width: 100%; /*Длина поля Давление */
+    margin-bottom: 8pt;
+    margin-right: 4pt;
+    max-width: 530pt;
+}
+.instrukcii{
+    margin-bottom: 7pt; 
+    color: rgb(109, 129, 187);
+    cursor: pointer;
+    text-align: center;
+}
+#dp2{
+    display: none;
+    margin-bottom: 10pt
+}
+.block_2_1{
+    float: left; 
+    width: 262pt; 
+    margin-bottom: 12pt;
+}
+.block_2_2{
+    float: left; 
+    width: 162pt;
+}
+
+/*Длина поля Боли в суставах */
+#taz{  /*Тазобедренный */
+    height: 13pt; 
+    width: 13pt;
+}
+#kist{  /*Лучезапястный */
+    height: 13pt; 
+    width: 13pt;
+}
+#golen8{ /*Голеностоп */
+    height: 13pt; 
+    width: 13pt;
+}
+#sheia8{ /*Шея */
+    height: 13pt; 
+    width: 13pt;
+}
+#spina8{ /*Спина */
+    height: 13pt; 
+    width: 13pt;
+}
+#koleno{ /*Колено */
+    height: 13pt; 
+    width: 13pt;
+}
+#plecho{ /*Плечо */
+    height: 13pt; 
+    width: 13pt;
+}
+#lokot{ /*Локоть */
+    height: 13pt; 
+    width: 13pt;
+}
+.block_2_3{
+    float: left;
+    width: 262pt;
+    margin-left: 3pt;
+    margin-bottom: 12pt; 
+}
+.block_2_4{
+    float: left; 
+    width: 162pt;
+}
+
+/*Заболевания*/
+#grija, #osteoxondroz, #koleno2, #skolioz, #kifoz, #diastaz{ /*Грыжа*/
+    height: 13pt; 
+    width: 13pt;
+}
+.block_2_5{
+    float: left; 
+    width: 262pt; 
+    margin-bottom: 12pt;
+}
+.block_2_6{
+    float: left; 
+    width: 162pt;
+}
+/*Инвентарь*/
+#trenageri, #kardio, #tyrnik, #rezina, #lavka, #stoiki, #chtanga, #ganteli, #beg, #trx{
+    height: 13pt; 
+    width: 13pt;
+}
+.block_2_7{
+    float: left;
+    width: 262pt;
+    margin-left: 3pt;
+    margin-bottom: 12pt; 
+}
+/*Можете ли вы хотя бы 6 раз*/
+#podt, #otgim_br, #otgim_pol{
+    height: 13pt; 
+    width: 13pt;
+}
+.block_2_8{
+    border-bottom-style: solid;
+    border-bottom-width: 1pt;
+    height: 5pt;
+    clear: both;
+}
+#vestab3{
+    border-bottom-style: solid; 
+    border-bottom-width: 1pt;
+}
+#raz_oop, #raz_oob, #raz_pnt {
+    width: 36pt;
+}
+.block_2_9{
+    border-bottom-style: solid;
+    border-bottom-width: 1pt;
+    height: 5pt;
+    clear: both; 
+}
+#vestab3{
+    border-bottom-style: solid; 
+    border-bottom-width: 1pt;
+}
+.block_2_10{
+    border-bottom-style: solid;
+    border-bottom-width: 1pt;
+    height: 5pt;
+    clear: both;
+}
+#vestab3{
+    border-bottom-style: solid; 
+    border-bottom-width: 1pt;
+}
+#sub_anketa{
+    cursor: pointer; 
+    margin-bottom: 5pt;
+}
+#rezalt_t3{
+    text-align:center;
+    margin-bottom: 8pt;
+}
+#rezalt_t{
+    display:none
+}
+.stag_class,.colvo_class,.lvl_class,.obch_class,.slog_class,.cel_class,.type_class,.telo_class,.davl_class,.instrukcii,.form_anketa{
+    /* display: none; */
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Kantumruy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
